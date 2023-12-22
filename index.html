@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Веб-портфолио</title>
+    <link rel="shortcut icon" href="images/web-design.png" type="image/png">
+    <meta
+      name="description"
+      content="Hillary Nyakundi a passionate technical writer and visionary, dedicated to leading and inspiring upcoming talents and developers, from Nairobi, Kenya"
+    />
+
+    <meta
+      name="viewport"
+      charset="utf-8"
+      content="width=device-width, initial-scale, maximum-scale=1, minimum-scale=1"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link rel="stylesheet" type="text/css" href="default.css" />
+    <link id="theme-style" rel="stylesheet" type="text/css" href="" />
+  </head>
+  <body>
+    <section class="s1">
+      <div class="main-container">
+        <div class="greeting-wrap">
+          <h1>Веб-портфолио</h1>
+        </div>
+        <div class="intro-wrapper">
+          <div class="nav-wrapper">
+            <div class="dots-wrapper">
+              <div id="dot-1" class="browser-dot"></div>
+              <div id="dot-2" class="browser-dot"></div>
+              <div id="dot-3" class="browser-dot"></div>
+            </div>
+            <ul id="navigation">
+              <li><a href="post.html">Проекты</a></li>
+              <li><a href="#contact">Контакты</a></li>
+            </ul>
+          </div>
+          <div class="left-column">
+            <img id="profile-pik" src="images/myphoto.png" alt="myphoto" />
+            <h5 style="text-align: center; line-height: 0"> Персональные темы</h5>
+            <div id="theme-option-wrapper">
+              <div data-mode="light" id="light-mode" class="theme-dot"></div>
+              <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+              <div data-mode="green" id="green-mode" class="theme-dot"></div>
+              <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+            </div>
+            <p id="settings-note">
+              *Варианты темы будут сохранены<br/>
+              для следующего посещения</p>
+          </div>
+          <div class="right-column">
+            <div id="preview-shadow">
+              <div id="preview">
+                <div id="corner-tl" class="corner"></div>
+                <div id="corner-tr" class="corner"></div>
+                <h3>Что это такое</h3>
+                <p> Это веб-портфолио содержащее выполненные работы за период обучения по специальности "Информатика и вычислительная техника"
+                </p>
+                <div id="corner-br" class="corner"></div>
+                <div id="corner-bl" class="corner"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="s2">
+      <div class="main-container">
+        <div class="about-wrapper">
+          <div class="about-me">
+            <h4 id="about-me">Обо мне</h4>
+            <p>
+              Я студент 4-го курса направления "Информатика и вычислительная техника" в Российском государственном педагогическом университете имени А.И. Герцена
+            </p>
+            <p>
+              Мне нравится программировать на Python и работать с UX/UI.
+            </p>
+            <hr/>
+            <h4>Приобретенные навыки</h4>
+            <div id="skills">
+              <ul>
+                <li>Оптимизация процессов</li>
+                <li>Веб-разработка</li>
+                <li>UX/UI дизайн</li>
+              </ul>
+              <ul>
+                <li>Публичные выступления</li>
+                <li>Командная работа</li>
+                <li>Управление командой</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="s2">
+      <div class="main-container">
+        <h3 id="contact" style="text-align: center">Связаться со мной</h3>
+
+        <form
+          id="contact-form"
+          action="https://formsubmit.co/3b9af7b11617699615aebfcf5a2a38dfu"
+          method="POST"
+        >
+          <label>Имя</label>
+          <input class="input-field" type="text" name="name" required />
+
+          <label>Тема</label>
+          <input class="input-field" type="text" name="subject" />
+
+          <label>Email</label>
+          <input class="input-field" type="text" name="email" required />
+
+          <label>Сообщение</label>
+          <textarea class="input-field" name="name"></textarea>
+
+          <input id="submit-btn" type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+
+    <section class="s2">
+      <div class="footer-basic">
+        <footer>
+          <div class="social">
+            <a target="_blank" href="https://github.com/Dm1trylbdv/"
+              ><i class="fa fa-github"></i></a>
+          <p class="copyright">DmitryLBDV Coders©2023</p>
+        </footer>
+      </div>
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
